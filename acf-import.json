@@ -1,0 +1,111 @@
+[
+    {
+        "key": "group_619d4525cf0d7",
+        "title": "Block: Dyad Image",
+        "fields": [
+            {
+                "key": "field_619d453154bcf",
+                "label": "Image",
+                "name": "image",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_6478aa30bc6c9",
+                "label": "Focal Point",
+                "name": "",
+                "aria-label": "",
+                "type": "accordion",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "open": 1,
+                "multi_expand": 1,
+                "endpoint": 0
+            },
+            {
+                "key": "field_6511f4087d5fe",
+                "label": "Focal Point X",
+                "name": "focal_point_x",
+                "aria-label": "",
+                "type": "range",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 50,
+                "min": "",
+                "max": "",
+                "step": 1,
+                "prepend": "",
+                "append": "%"
+            },
+            {
+                "key": "field_6511f4887d5ff",
+                "label": "Focal Point Y",
+                "name": "focal_point_y",
+                "aria-label": "",
+                "type": "range",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 50,
+                "min": "",
+                "max": "",
+                "step": 1,
+                "prepend": "",
+                "append": "%"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf\/dyad-image"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "A custom image block.",
+        "show_in_rest": 0
+    }
+]

@@ -1,0 +1,14 @@
+{
+	"name": "acf/dyad-image",
+	"title": "Dyad Image",
+	"description": "A custom Dyad Image block.",
+	"style": ["file:./dyad-image.css"],
+	"editorScript": "file:./dyad-image.js",
+	"category": "formatting",
+	"icon": "camera",
+	"keywords": ["image", "row", "dyad", "images"],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "dyad-image.php"
+	}
+}
